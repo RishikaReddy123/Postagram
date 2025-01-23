@@ -1,0 +1,58 @@
+.main-container {
+  justify-items: center;
+}
+.Profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  padding: 20px;
+  border-bottom: 2px solid rgb(219, 206, 206);
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+.Profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Profile-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid grey;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.Profile-followers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Profile-followers p {
+  margin: 0 15px;
+}
+
+.Posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.Posts img {
+  height: 400px;
+  width: 400px;
+}
